@@ -1,0 +1,12 @@
+.container{
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header-item{
+    padding-right: 20px;
+}

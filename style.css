@@ -17,7 +17,7 @@ body{
     font-size: 48px;
 }
 .secondary-text{
-    color: #E5E7EB;
+    color: #abacaf;
     font-size: 18px;
 }
 .button{
@@ -28,6 +28,11 @@ body{
     padding-left: 20px;
     border-radius: 5px;
     border: none;
+}
+.information-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
 }
 
 /* Header */
@@ -56,4 +61,32 @@ body{
 }
 .place-holder{
     background-color: gray;
+}
+
+/* sectionTwo */
+.sectionTwo{
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px 30px;
+}
+.sectionTwo-container{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.sectionTwo-items{
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 200px;
+    margin: 40px;
+    text-align: center;
+}
+
+.square{
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+    height: 175px;
+    width: 175px;
 }

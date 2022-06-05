@@ -110,3 +110,23 @@ body{
     font-weight: bold;
     font-style: normal;
 }
+
+/* sectionFour */
+.sectionFour{
+    background-color: white;
+    padding: 200px 100px;
+}
+.sectionFour-container{
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.sectionFour-button{
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    padding: 1px 40px;
+}

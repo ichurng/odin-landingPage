@@ -1,20 +1,37 @@
+/* General */
 body{
     margin: 0px;
 }
 .container{
     font-family: 'Roboto', sans-serif;
 }
-.header{
+.flex{
     display: flex;
+}
+
+/* Header */
+.header{
+    background-color: #1F2937;
     justify-content: space-between;
+}
+.header-containter{
     padding: 20px;
     background-color: #1F2937;
     color:#F9FAF8;
     font-size: 24px;
 }
-
 .header-item{
     padding-right: 20px;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+/* sectionOne */
+.sectionOne{
+    justify-content: space-evenly;
+}
+.sectionOne-container{
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }

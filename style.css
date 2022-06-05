@@ -130,3 +130,11 @@ body{
     color: white;
     padding: 1px 40px;
 }
+
+/* footer */
+.footer{
+    padding: 40px 100px;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+}
